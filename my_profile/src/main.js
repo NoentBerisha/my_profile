@@ -103,7 +103,7 @@ const Main = () => {
             <h2>{translations.certifications}</h2>
             <div className="projects">
               <div className="project">
-              {['Google Certificate', 'Spring symposium-certificate of attendance', 'Spring symposium-certificate of presentation', 'Spring symposium-certificate of best presentation', 'Study certificate', 'Letter of Award'].map((project, index) => (
+              {['Google Certificate', 'Spring symposium-certificate of attendance', 'Spring symposium-certificate of presentation', 'Spring symposium-certificate of best presentation', 'Study certificate', 'Letter of Award', 'Head List Certificate 1', 'Head List Certificate 2'].map((project, index) => (
   <a href={`${process.env.PUBLIC_URL}/certificates/${project}.pdf`} target="_blank" rel="noopener noreferrer" key={index}>
     <img src={`${process.env.PUBLIC_URL}/certificates/${project}.png`} alt={`project ${index + 1}`} />
   </a>
