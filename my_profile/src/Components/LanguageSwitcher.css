@@ -1,0 +1,28 @@
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flag-icon {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    padding: 5px;
+    border:none;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flag:hover {
+    cursor: pointer;
+}
+
+.selected {
+    color: black;
+}
